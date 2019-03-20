@@ -1,0 +1,49 @@
+<div>
+  <div>
+    <table>
+      <tr>
+        <td>
+          Select a Village
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select data-dojo-type="dijit/form/FilteringSelect" id="villName" name="villName"
+            data-dojo-attach-point="villName"
+            data-dojo-props="value: '', placeHolder: 'Select a Village', required: true, fetchProperties:{sort:[{attribute:'name',descending:false}]}">
+
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Select a Mustil
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select data-dojo-type="dijit/form/FilteringSelect" id="musName" name="musName"
+            data-dojo-attach-point="musName"
+            data-dojo-props="value: '', placeHolder: 'Select a Mustil', required: true, fetchProperties:{sort:[{attribute:'name',descending:false}]}">
+
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Select a Khasra
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select data-dojo-type="dijit/form/FilteringSelect" id="khasraName" name="khasraName"
+            data-dojo-attach-point="khasraName"
+            data-dojo-props="value: '', placeHolder: 'Select a Khasra', required: true, fetchProperties:{sort:[{attribute:'name',descending:false}]}">
+
+          </select>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>
